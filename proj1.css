@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 80px;
+    
+}
+img{
+    width: 80px;
+}
+header{
+    background-color: rgba(228, 238, 228, 0.656);
+    width: 100%;
+}
+h2{
+    text-align: center;
+    
+}
+div{
+    text-align: center;
+ 
+}
+div a{
+     text-decoration:none ;
+    background-color: rgb(157, 213, 255);
+padding: 30px;
+font-weight: bolder;
+border-radius: 5px;
+}
+h3{
+transform:translateX(100%);
+animation: cssmarquee 15s linear infinite;
+}
+@keyframes cssmarquee {
+0% {
+transform: translateX(100%);
+}
+100% {
+transform: translateX(-100%);
+}
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+
+   
+}
+footer a{
+    color: blanchedalmond;
+    padding: 20px;
+    border: 30px;
+   
+
+}
+input[type=submit]{
+    background-color: rgb(150, 150, 251);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+}
+input[type=text]{
+  height: 150px;
+  width: 35%;
+  border-radius: 10px;
+
+
+}
